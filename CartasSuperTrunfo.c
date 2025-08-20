@@ -63,9 +63,7 @@ int main() {
     pibPerCapita2 = (pib2 * 1000000000.0) / populacao2;
     superPoder2 = (float)populacao2 + area2 + pib2 + pontosTuristicos2 + pibPerCapita2 + (1.0 / densidade2);
 
-    // =========================
-    // Comparações (como pedido no nível mestre)
-    // =========================
+    
     printf("\nComparacao de Cartas:\n");
     printf("Populacao: Carta 1 venceu (%d)\n", populacao1 > populacao2);
     printf("Area: Carta 1 venceu (%d)\n", area1 > area2);
